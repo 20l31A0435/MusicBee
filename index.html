@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - your favourite music</title>
+    <link rel="stylesheet" href="style.css">
+    
+   
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.jpg" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+        <h1>Best of NCS- No Copyrights Sounds</h1>
+        <div class="songitemcontainer">
+        <div class="songitem">
+            <img src="covers/1.jpg" alt="1">
+            <span class="songname">flute</span>
+            <span class="songlistplay"><span class="timestamp">1:22</span><i id="0" class="fa-solid fa-play songitemplay"></i>
+        </div>
+        <div class="songitem">
+            <img src="covers/1.jpg" alt="1">
+            <span class="songname">Dandiya</span>
+            <span class="songlistplay"><span class="timestamp">4:29</span><i id="1" class="fa-solid fa-play songitemplay"></i>
+        </div>
+        <div class="songitem">
+            <img src="covers/1.jpg" alt="1">
+            <span class="songname">Mnasu Padi</span>
+            <span class="songlistplay"><span class="timestamp">4:30</span><i id="2" class="fa-solid fa-play songitemplay"></i>
+        </div>
+        <div class="songitem">
+            <img src="covers/1.jpg" alt="1">
+            <span class="songname">Prema Ane</span>
+            <span class="songlistplay"><span class="timestamp">4:29</span><i id="3" class="fa-solid fa-play songitemplay"></i>
+        </div>
+        <div class="songitem">
+            <img src="covers/1.jpg" alt="1">
+            <span class="songname">Roja Roja</span>
+            <span class="songlistplay"><span class="timestamp">4:29</span><i id="4" class="fa-solid fa-play songitemplay"></i>
+        </div>
+        <div class="songitem">
+            <img src="covers/1.jpg" alt="1">
+            <span class="songname">Vaalu Kanuladaanaa</span>
+            <span class="songlistplay"><span class="timestamp">4:29</span><i id="5" class="fa-solid fa-play songitemplay"></i>
+        </div>
+        <div class="songitem">
+            <img src="covers/1.jpg" alt="1">
+            <span class="songname">Oh Mariyaa</span>
+            <span class="songlistplay"><span class="timestamp">4:28</span><i id="6" class="fa-solid fa-play songitemplay"></i>
+        </div>
+        </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" >
+        <div class="icons">
+            <i class="fa-solid fa-backward" id="prev"></i>
+            <i class="fa-solid fa-play" id="masterplay"></i>
+            <i class="fa-solid fa-forward" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing.gif" width="42px" id="gif" alt=""><span id="masterSongName">Krishna Achyutha Madhava</span>
+        </div>
+    </div>
+
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/0bf19b6443.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
